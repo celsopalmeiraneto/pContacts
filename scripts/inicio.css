@@ -1,0 +1,168 @@
+		body{
+			background: #E0FFE0;
+		}
+		.topo-dir {
+		background: url(../img/topo-dir.jpg) 100% 0 no-repeat; 
+		}
+		.baixo-esq {
+		background: url(../img/baixo-esq.jpg) 0 100% no-repeat;
+		}
+		.baixo-dir {
+		background: url(../img/baixo-dir.jpg) 100% 100% no-repeat; 
+		padding: 0px 27px 27px 0px;
+		}
+		.texto {
+		background:white; 
+		border:1px solid #333;
+		}
+		.texto h3 {
+		text-align:center; 
+		margin:0.5em 0;
+		}
+		fieldset {
+			margin: 5px 10px 5px 10px;
+			padding: 10px 0px 5px 10px;
+		}
+		input {
+			margin: 2px 5px 2px 0px;
+		}
+		.tabela1{
+			border: 0px solid #B1D79C;
+			width: 980px;
+			position: absolute;
+			left:50%;
+			margin-left:-490px;
+		}
+		.cabtab1{
+			background: white url(../img/barra-topo.jpg) no-repeat;
+			font-weight: bold;
+			color: #009500;
+			height:40px;
+			border: 0px solid #B1D79C;
+			/*padding: 2 2 2 2px;*/
+		}
+		.corpotab1{
+			padding: 4 4 4 4px;
+			background: white url(../img/barra-topo.jpg) no-repeat;
+		}
+		.corpotab2{
+			padding: 4 4 4 4px;
+			width: 100%;
+			/*url(img/barra-topo.jpg) no-repeat;*/
+			border: 1px solid #B1D79C;
+		}
+		corpotab3{
+			padding: 4 4 4 4px;
+			width: 100%;
+			/*url(img/barra-topo.jpg) no-repeat;*/
+			border: 1px solid #B1D79C;
+		}
+		#meio1{
+			display:inline;
+			float:left;
+			width: 50%;
+			border: 1px solid #B1D79C;
+		}
+		#meio2{
+			display:inline;
+			float:left;
+			width: 49%;
+			border: 1px solid #B1D79C;
+		}
+		
+		ul{
+			font-family: Verdana,Arial;
+			font-size: 13px;
+		}
+		img.valign {
+			height: 100%;
+			vertical-align: middle;
+		}
+
+		#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 100%;
+			background-color:#B1D79C;
+			list-style:none;
+			font: 80% Tahoma;
+		}
+
+		#menu ul li { display: inline; }
+
+		#menu ul li a {
+			background-color:#B1D79C//#330066;
+			color: white;
+			text-decoration: none;
+			border-bottom:3px solid #B1D79C//#330066;
+			padding: 3px 30px;
+			float:left;
+		}
+
+		#menu ul li a:hover {
+			background-color:white;
+			color: #B1D79C;
+			border-bottom:0px solid white;
+		}
+		
+		.tabelinhaDeMentira  a:hover{
+		background-color: black;
+		}
+
+		#telinhaFodona label input{
+			display: block;
+			float: left;
+		}
+		#telinhaFodona{
+			border: solid 4px #B1D79C;
+			font: 0.8em Verdana, Arial, Times, serif;
+			background-color: #E0FFE0;
+		}
+		#telinhaFodona br{
+			clear: left;
+		}
+
+		#telinhaFodona label {
+			margin-bottom:0;
+			padding-right: 20px;
+			padding-bottom:10px;
+			text-align:right; 
+		}
+		
+		
+		#mask {
+			position:absolute;
+			z-index:9000;
+			background-color:white;
+			display:none;
+		}
+
+		#boxes .window {
+			position:absolute;
+			width:440px;
+			height:200px;
+			display:none;
+			z-index:9999;
+			padding:20px;
+		}
+
+		/* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
+		#boxes #dialog {
+			font: 0.8em Verdana, Arial, Times, serif;
+			color: black;
+			width:375px;
+			height:203px;
+			}
+
+		/* posiciona o link para fechar a janela */
+		.close {
+			display:block;
+			text-align:right;
+		}
+		#optionsBar a{
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
